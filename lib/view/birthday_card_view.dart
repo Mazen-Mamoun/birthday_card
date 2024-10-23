@@ -13,6 +13,7 @@ class BirthdayCardView extends StatelessWidget {
         centerTitle: true,
         title: const Text(
           "Happy Birth Day",
+          style: TextStyle(fontSize: 22),
         ),
       ),
       body: Image.asset(
